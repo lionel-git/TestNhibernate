@@ -69,6 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dbo.Student.sql" />
+    <EmbeddedResource Include="Student.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
